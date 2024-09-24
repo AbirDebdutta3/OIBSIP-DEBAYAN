@@ -1,0 +1,103 @@
+body {
+    background-color: #e1c6ac;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 27px;
+    color: #333;
+    padding: 10px;
+}
+
+label {
+    padding-bottom: 1rem;
+}
+
+.container {
+    position: relative;
+    max-width: 400px;
+    margin: 6% auto;
+    --borderWidth: 20px;
+    background-color: #fff;
+    border-radius: var(--borderWidth);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth));
+    background: linear-gradient(60deg, #f79533, #f37055);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+.logo {
+    height: 300px;
+    width: 300px;
+
+}
+
+input[type="number"] {
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    color: #333;
+}
+
+button {
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 2rem;
+    border: 5px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#result {
+    margin-top: 50px;
+    font-size: 36px;
+    color: #333;
+}
+
+.illustration {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(#dadd17, #f37055);
+    position: absolute;
+    right: -50px;
+    bottom: -60px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.illustration1 {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(#a5692d, #f37055);
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+    left: -50px;
+    z-index: -1;
+}

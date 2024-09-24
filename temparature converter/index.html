@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter Page</title>
+    
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="tc.css">
+
+    <!-- Font Awesome Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="illustration1"></div>
+        <h1>Temperature Converter</h1>
+        <hr>
+        <img class="logo" src="tc3_img-removebg-preview.png" alt="Temperature Converter Logo"><br>
+        
+        <label for="celsius">Enter Celsius:</label>
+        <input type="number" id="celsius" placeholder="Enter Celsius" oninput="convertToFahrenheit()">
+        <br><br>
+
+        <label for="fahrenheit">Enter Fahrenheit:</label>
+        <input type="number" id="fahrenheit" placeholder="Enter Fahrenheit" oninput="convertToCelsius()">
+        <br><br>
+
+        <div id="result"></div>
+        <div class="illustration"></div>
+    </div>
+
+    <!-- Link to JavaScript -->
+    <script src="tc.js"></script>
+</body>
+</html>
