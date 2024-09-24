@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Debayan's Portfolio</h1>
+        <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="line"></div>
+    <div class="main">
+        <div class="left">
+            <p>Hi, My name is <span style="color: #FFA500;">Debayan</span> and <br>I am a passionate</br> </p>
+            <span id="element" style="color: #FFA500;"></span>
+            <div class="social_media">
+                <ul>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </ul>
+            </div>
+        </div>
+        <img src="abir_portfolio-removebg-preview.png" alt="" class="img1">
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web Developer</i>', ' <i>Web Designer</i>', '<i>And Programmer.</i>'],
+            typeSpeed: 50,
+        });
+    </script>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h1>Skills</h1>
+        <ul class="list2">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1>My Projects</h1>
+        <div class="projects-grid">
+            <div class="project">
+                <h2>Spotify Clone</h2>
+                <a href=""><img src="spotify_portfolio-removebg-preview.png" alt="spotify clone"></a>
+                <p>A Spotify clone using HTML and CSS focuses on recreating the visual design and layout of Spotify's
+                    interface</p>
+            </div>
+            <div class="project">
+                <h2 style="margin-bottom: 0.5rem;">To Do List</h2>
+                <a href=""><img src="to_do_list_portfolio-removebg-preview.png" alt=""></a>
+                <p>A To-Do List is a simple productivity tool that helps users organize tasks and manage their time
+                    efficiently</p>
+            </div>
+            <div class="project">
+                <h2>Temprature Converter</h2>
+                <a href=""><img src="temp_portfolio-removebg-preview.png" alt=""></a>
+                <p>A Temperature Converter is a simple tool used to convert temperature values between different units,
+                    such as Celsius, Fahrenheit, and Kelvin</p>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+<section id="services">
+    <h1>Services</h1>
+    <div class="services">
+        <div class="service">
+            <h2>Web Development</h2>
+            <a href=""><img src="portfolio_webdev-removebg-preview.png" alt=""></a>
+            <p>I create responsive and high-performance websites using modern technologies.</p>
+        </div>
+        <div class="service">
+            <h2>UI/UX Design</h2>
+            <a href=""><img src="uiux_portfolio-removebg-preview.png" alt=""></a>
+            <p>Designing intuitive user interfaces and providing an exceptional user experience.</p>
+        </div>
+        <div class="service">
+            <h2>SEO Optimization</h2>
+            <a href=""><img src="seo_portfolio-removebg-preview.png" alt=""></a>
+            <p>Helping websites rank better on search engines through optimization techniques.</p>
+        </div>
+    </div>
+</section>
+    <!-- Blogs Section -->
+<section id="blogs">
+    <h1>Blogs</h1>
+    <div class="blogs">
+        <div class="blog-post">
+            <h2 style="margin-bottom: 2rem;">How to Build Responsive Websites</h2>
+            <img src="responsive-web-design-icon-3-removebg-preview.png" alt="">
+            <p>In this post, I explain the best practices for building websites that look great on any device...</p>
+            <a href="full-post-link"><button>Read More</button></a>
+        </div>
+        <div class="blog-post">
+            <h2 >The Future of Web Development in 2025</h2>
+            <img src="future_of_webdev-removebg-preview.png" alt="">
+            <p>A deep dive into the emerging trends in web development and what to expect in the next few years...
+            </p>
+            <a href="full-post-link"><button>Read more</button></a>
+        </div>
+    </div>
+    <!-- Add more blog posts as needed -->
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <div class="contact">
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required style="height: 2rem;">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required style="height: 2rem;">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required style="height: 2rem;"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </section>
+    <div class="line"></div>
+    <footer>
+        <p>© 2024 Debayan Dutta. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

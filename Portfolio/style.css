@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.body {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.navbar h1 {
+    color: rgb(0, 0, 0);
+    margin-top: 1.5rem;
+    position: relative;
+    right: 5rem;
+    font-weight: 700;
+}
+
+.navbar .list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.navbar .list li {
+    display: inline-block;
+    margin: 1rem;
+    margin-top: 1.5rem;
+
+}
+
+.navbar ul li a:hover {
+    border: 1px #FFA500;
+    border-radius: 10%;
+    background-color: #FFA500;
+    padding: 0.45rem;
+    transition: 0.7s ease-in-out;
+}
+
+.line {
+    border-top: 4.5px solid #FFA500;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.main .left {
+    width: 25%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.9rem;
+    font-weight: 600;
+    position: relative;
+    left: 5rem;
+    top: 7rem;
+}
+
+.img1 {
+    height: 30rem;
+    width: 20%;
+    border-radius: 20%;
+    background-color: #FFA500;
+    position: relative;
+    right: 15rem;
+    top: 3rem;
+}
+
+#skills {
+    margin-top: 8rem;
+
+}
+
+.list2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#skills h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+#contact h1{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+form{
+    width: 30%;
+    height: 20rem;
+    margin-left: 1rem;
+   
+}
+button{
+    width: 5rem;
+    height: 2rem;
+    padding: 0.1rem;
+    border-radius: 10%;
+    background-color: #FFA500;
+    color: #000000;
+    border:hidden
+}
+.social_media i{
+font-size: 1.5rem;
+margin: 1rem;
+color: #000000;
+}
+.social_media i:hover{
+    color: #FFA500;
+    font-size: 1.8rem;
+    transition: 0.5s ease;
+}
+footer{
+    height: 3rem;
+    text-align: center;
+    color: #000000;
+    margin: 0.5rem;
+    font-weight: 600;
+}
+#projects h1,#services h1,#blogs h1{
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+    font-size: 2rem;
+}
+.projects-grid,.services,.blogs{
+display: flex;
+justify-content: space-evenly;
+}
+.project,.service,.blog-post{
+    height: 30rem;
+    width: 30rem;
+    text-align: center;
+}
+.project img{
+    height: 300px;
+    width: 100%;
+}
+.service img,.blogs img{
+    height: 360px;
+    width: 100%;
+}
